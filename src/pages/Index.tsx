@@ -201,7 +201,7 @@ const Index = () => {
               <div className="flex items-center justify-center space-x-4">
                 <Icon name="Phone" size={24} className="text-construction" />
                 <div>
-                  <p className="font-open-sans font-semibold text-navy">+7 (495) 123-45-67</p>
+                  <p className="font-open-sans font-semibold text-navy">+7 (989) 260-61-58</p>
                   <p className="text-gray-600 font-open-sans text-sm">Звоните ежедневно 9:00-21:00</p>
                 </div>
               </div>
@@ -215,25 +215,29 @@ const Index = () => {
               </div>
             </div>
             
-            <Button 
-              className="bg-construction hover:bg-construction/90 text-white px-8 py-4 text-lg font-semibold"
-              size="lg"
-            >
-              <Icon name="MessageCircle" size={20} className="mr-2" />
-              Написать в WhatsApp
-            </Button>
+            <a href="https://wa.me/79892606158?text=Здравствуйте! Интересует строительство дома." target="_blank" rel="noopener noreferrer">
+              <Button 
+                className="bg-construction hover:bg-construction/90 text-white px-8 py-4 text-lg font-semibold"
+                size="lg"
+              >
+                <Icon name="MessageCircle" size={20} className="mr-2" />
+                Написать в WhatsApp
+              </Button>
+            </a>
           </div>
         </div>
       </section>
 
       {/* WhatsApp Floating Button */}
       <div className="fixed bottom-6 right-6 z-50">
-        <Button
-          className="bg-green-500 hover:bg-green-600 text-white rounded-full p-4 shadow-lg hover:shadow-xl transition-all duration-300 animate-pulse"
-          size="lg"
-        >
-          <Icon name="MessageCircle" size={24} />
-        </Button>
+        <a href="https://wa.me/79892606158?text=Здравствуйте! Интересует строительство дома." target="_blank" rel="noopener noreferrer">
+          <Button
+            className="bg-green-500 hover:bg-green-600 text-white rounded-full p-4 shadow-lg hover:shadow-xl transition-all duration-300 animate-pulse"
+            size="lg"
+          >
+            <Icon name="MessageCircle" size={24} />
+          </Button>
+        </a>
       </div>
 
       {/* Footer */}
