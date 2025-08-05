@@ -130,30 +130,16 @@ const Index = () => {
             <p className="text-xl text-gray-600 font-open-sans">Примеры реализованных домов и коттеджей</p>
           </div>
           
-          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
             <div className="group relative overflow-hidden rounded-lg shadow-lg hover:shadow-xl transition-all duration-300">
               <img 
-                src="/img/d364ee56-8acf-44eb-97e9-43cccbe2e9e9.jpg" 
-                alt="Современный дом" 
+                src="https://cdn.poehali.dev/files/6b0cf94e-0fb5-4274-84cf-e308d8c15f4f.jpeg" 
+                alt="Современный дом с мансардой" 
                 className="w-full h-80 object-cover group-hover:scale-105 transition-transform duration-300"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-navy/80 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                 <div className="absolute bottom-4 left-4 text-white">
-                  <h3 className="text-2xl font-montserrat font-bold mb-2">Современный дом</h3>
-                  <p className="font-open-sans">250 м² • 3 этажа • Премиум</p>
-                </div>
-              </div>
-            </div>
-
-            <div className="group relative overflow-hidden rounded-lg shadow-lg hover:shadow-xl transition-all duration-300">
-              <img 
-                src="/img/5440f1a3-79b0-4746-b9f2-70c7c392b036.jpg" 
-                alt="Семейный коттедж" 
-                className="w-full h-80 object-cover group-hover:scale-105 transition-transform duration-300"
-              />
-              <div className="absolute inset-0 bg-gradient-to-t from-navy/80 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                <div className="absolute bottom-4 left-4 text-white">
-                  <h3 className="text-2xl font-montserrat font-bold mb-2">Семейный коттедж</h3>
+                  <h3 className="text-2xl font-montserrat font-bold mb-2">Дом с мансардой</h3>
                   <p className="font-open-sans">180 м² • 2 этажа • Комфорт</p>
                 </div>
               </div>
@@ -161,13 +147,13 @@ const Index = () => {
 
             <div className="group relative overflow-hidden rounded-lg shadow-lg hover:shadow-xl transition-all duration-300">
               <img 
-                src="/img/ab5075e4-0545-4988-8222-e6b685cf24de.jpg" 
-                alt="Простой коттедж" 
+                src="https://cdn.poehali.dev/files/b6028620-2ac9-4dae-af7c-f892516f69d9.jpg" 
+                alt="Одноэтажный дом" 
                 className="w-full h-80 object-cover group-hover:scale-105 transition-transform duration-300"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-navy/80 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                 <div className="absolute bottom-4 left-4 text-white">
-                  <h3 className="text-2xl font-montserrat font-bold mb-2">Простой коттедж</h3>
+                  <h3 className="text-2xl font-montserrat font-bold mb-2">Одноэтажный дом</h3>
                   <p className="font-open-sans">120 м² • 1 этаж • Эконом</p>
                 </div>
               </div>
@@ -175,14 +161,42 @@ const Index = () => {
 
             <div className="group relative overflow-hidden rounded-lg shadow-lg hover:shadow-xl transition-all duration-300">
               <img 
-                src="/img/cd38a9c6-72fb-46ae-b9b8-5374261d2a26.jpg" 
-                alt="Деревянный дом" 
+                src="https://cdn.poehali.dev/files/e93e7d6b-1664-49fa-b9ee-7a7dc84f4e9b.jpg" 
+                alt="Классический дом" 
                 className="w-full h-80 object-cover group-hover:scale-105 transition-transform duration-300"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-navy/80 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                 <div className="absolute bottom-4 left-4 text-white">
-                  <h3 className="text-2xl font-montserrat font-bold mb-2">Деревянный дом</h3>
-                  <p className="font-open-sans">90 м² • 1 этаж • Бюджет</p>
+                  <h3 className="text-2xl font-montserrat font-bold mb-2">Классический дом</h3>
+                  <p className="font-open-sans">150 м² • 1 этаж • Комфорт</p>
+                </div>
+              </div>
+            </div>
+
+            <div className="group relative overflow-hidden rounded-lg shadow-lg hover:shadow-xl transition-all duration-300">
+              <img 
+                src="https://cdn.poehali.dev/files/b98b07a2-5d1c-4247-b7cf-558eb2e973b9.jpeg" 
+                alt="Дом с мансардой и гаражом" 
+                className="w-full h-80 object-cover group-hover:scale-105 transition-transform duration-300"
+              />
+              <div className="absolute inset-0 bg-gradient-to-t from-navy/80 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                <div className="absolute bottom-4 left-4 text-white">
+                  <h3 className="text-2xl font-montserrat font-bold mb-2">Дом с гаражом</h3>
+                  <p className="font-open-sans">200 м² • 2 этажа • Премиум</p>
+                </div>
+              </div>
+            </div>
+
+            <div className="group relative overflow-hidden rounded-lg shadow-lg hover:shadow-xl transition-all duration-300">
+              <img 
+                src="https://cdn.poehali.dev/files/56c3a3c4-b518-474e-9f3d-0869060c280f.jpeg" 
+                alt="Уютный загородный дом" 
+                className="w-full h-80 object-cover group-hover:scale-105 transition-transform duration-300"
+              />
+              <div className="absolute inset-0 bg-gradient-to-t from-navy/80 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                <div className="absolute bottom-4 left-4 text-white">
+                  <h3 className="text-2xl font-montserrat font-bold mb-2">Загородный дом</h3>
+                  <p className="font-open-sans">140 м² • 1 этаж • Стандарт</p>
                 </div>
               </div>
             </div>
