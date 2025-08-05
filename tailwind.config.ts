@@ -19,6 +19,14 @@ export default {
 		},
 		extend: {
 			colors: {
+				construction: {
+					DEFAULT: '#FF6B35',
+					foreground: '#FFFFFF'
+				},
+				navy: {
+					DEFAULT: '#2C3E50',
+					foreground: '#FFFFFF'
+				},
 				border: 'hsl(var(--border))',
 				input: 'hsl(var(--input))',
 				ring: 'hsl(var(--ring))',
