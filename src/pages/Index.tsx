@@ -126,7 +126,7 @@ const Index = () => {
             <p className="text-xl text-gray-600 font-open-sans">Примеры реализованных домов и коттеджей</p>
           </div>
           
-          <div className="grid md:grid-cols-2 gap-8">
+          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
             <div className="group relative overflow-hidden rounded-lg shadow-lg hover:shadow-xl transition-all duration-300">
               <img 
                 src="/img/d364ee56-8acf-44eb-97e9-43cccbe2e9e9.jpg" 
@@ -151,6 +151,34 @@ const Index = () => {
                 <div className="absolute bottom-4 left-4 text-white">
                   <h3 className="text-2xl font-montserrat font-bold mb-2">Семейный коттедж</h3>
                   <p className="font-open-sans">180 м² • 2 этажа • Комфорт</p>
+                </div>
+              </div>
+            </div>
+
+            <div className="group relative overflow-hidden rounded-lg shadow-lg hover:shadow-xl transition-all duration-300">
+              <img 
+                src="/img/ab5075e4-0545-4988-8222-e6b685cf24de.jpg" 
+                alt="Простой коттедж" 
+                className="w-full h-80 object-cover group-hover:scale-105 transition-transform duration-300"
+              />
+              <div className="absolute inset-0 bg-gradient-to-t from-navy/80 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                <div className="absolute bottom-4 left-4 text-white">
+                  <h3 className="text-2xl font-montserrat font-bold mb-2">Простой коттедж</h3>
+                  <p className="font-open-sans">120 м² • 1 этаж • Эконом</p>
+                </div>
+              </div>
+            </div>
+
+            <div className="group relative overflow-hidden rounded-lg shadow-lg hover:shadow-xl transition-all duration-300">
+              <img 
+                src="/img/cd38a9c6-72fb-46ae-b9b8-5374261d2a26.jpg" 
+                alt="Деревянный дом" 
+                className="w-full h-80 object-cover group-hover:scale-105 transition-transform duration-300"
+              />
+              <div className="absolute inset-0 bg-gradient-to-t from-navy/80 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                <div className="absolute bottom-4 left-4 text-white">
+                  <h3 className="text-2xl font-montserrat font-bold mb-2">Деревянный дом</h3>
+                  <p className="font-open-sans">90 м² • 1 этаж • Бюджет</p>
                 </div>
               </div>
             </div>
