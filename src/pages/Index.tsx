@@ -36,20 +36,24 @@ const Index = () => {
               Профессиональное строительство частных домов и коттеджей с современными технологиями и качественными материалами
             </p>
             <div className="flex flex-col sm:flex-row gap-4 animate-scale-in">
-              <Button 
-                className="bg-construction hover:bg-construction/90 text-white px-8 py-3 text-lg font-semibold"
-                size="lg"
-              >
-                <Icon name="Phone" size={20} className="mr-2" />
-                Получить консультацию
-              </Button>
-              <Button 
-                variant="outline" 
-                className="border-white text-white hover:bg-white hover:text-navy px-8 py-3 text-lg"
-                size="lg"
-              >
-                Смотреть проекты
-              </Button>
+              <a href="https://wa.me/79892606158?text=Здравствуйте! Хочу получить консультацию по строительству дома." target="_blank" rel="noopener noreferrer">
+                <Button 
+                  className="bg-construction hover:bg-construction/90 text-white px-8 py-3 text-lg font-semibold"
+                  size="lg"
+                >
+                  <Icon name="Phone" size={20} className="mr-2" />
+                  Получить консультацию
+                </Button>
+              </a>
+              <a href="#projects">
+                <Button 
+                  variant="outline" 
+                  className="border-white text-white hover:bg-white hover:text-navy px-8 py-3 text-lg"
+                  size="lg"
+                >
+                  Смотреть проекты
+                </Button>
+              </a>
             </div>
           </div>
         </div>
